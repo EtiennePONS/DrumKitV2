@@ -5,12 +5,12 @@ const buttonKick = document.getElementById("padKick");
 const buttonSnare = document.getElementById("padSnare");
 const buttonCloseHH = document.getElementById("padCloseHH");
 
-const audioClap = new Audio("click1.mp3");
-const audioCrash = new Audio("click2.mp3");
-const audioOpenHH = new Audio("click1.mp3");
-const audioKick = new Audio("click2.mp3");
-const audioSnare = new Audio("click1.mp3");
-const audioCloseHH = new Audio("click2.mp3");
+const audioClap = new Audio("clap.mp3");
+const audioCrash = new Audio("crash.mp3");
+const audioOpenHH = new Audio("openHH.mp3");
+const audioKick = new Audio("kick.mp3");
+const audioSnare = new Audio("snare.mp3");
+const audioCloseHH = new Audio("closeHH.mp3");
 
 buttonClap.addEventListener("click", playClap);
 buttonCrash.addEventListener("click", playCrash);
