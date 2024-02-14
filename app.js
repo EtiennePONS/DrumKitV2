@@ -18,12 +18,6 @@ buttonOpenHH.addEventListener("click", playOpenHH);
 buttonKick.addEventListener("click", playKick);
 buttonSnare.addEventListener("click", playSnare);
 buttonCloseHH.addEventListener("click", playCloseHH);
-buttonClap.addEventListener("touchstart", playClap);
-buttonCrash.addEventListener("touchstart", playCrash);
-buttonOpenHH.addEventListener("touchstart", playOpenHH);
-buttonKick.addEventListener("touchstart", playKick);
-buttonSnare.addEventListener("touchstart", playSnare);
-buttonCloseHH.addEventListener("touchstart", playCloseHH);
 
 function playClap(event) {
   event.preventDefault();
